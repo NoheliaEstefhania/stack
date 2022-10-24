@@ -1,5 +1,5 @@
 #include "arrayStack.h"
-
+#include <assert.h>"
 template<typename T>
 void ArrayStack<T>::push(T e){
   int numelem = sp - data; //cantidad de elementos , resta con aritmetica de punteros
