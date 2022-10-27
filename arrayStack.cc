@@ -12,7 +12,7 @@ void ArrayStack<T>::push(T e){
 
 template<typename T>
 void ArrayStack<T>::pop(){
-  assert (!empty())
+  assert (!empty());
   //  return;
   sp--;
   assert(numelem - 1 == size);
