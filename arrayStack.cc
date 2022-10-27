@@ -3,17 +3,17 @@
 template<typename T>
 void ArrayStack<T>::push(T e){
   int numelem = sp - data; //cantidad de elementos , resta con aritmetica de punteros
-  assert (numelem == size)
-    resize();//debo reservar más memoria, data apuntará a un arreglo nuevo más grande|:
+  assert (numelem == size);
+  resize();//debo reservar más memoria, data apuntará a un arreglo nuevo más grande|:
   *sp = e; //almacena T en la posición libre sp
   sp++;
- assert(numelem + 1 == size); 
+  assert(numelem + 1 == size); 
 }
 
 template<typename T>
 void ArrayStack<T>::pop(){
-  assert (empty())
-    return;
+  assert (!empty())
+  //  return;
   sp--;
   assert(numelem - 1 == size);
 }
