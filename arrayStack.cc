@@ -1,6 +1,7 @@
 #include "arrayStack.h"
 #include <assert.h>
 #include <iostream>
+#include <gtest/gtest.h>
 using namespace std;
 
 template<typename T>
@@ -46,7 +47,7 @@ void ArrayStack<T>::resize(){
     newData[i] = data[i];
   delete[] data;
   data = newData;
-  //sp = data + size;
+  sp = data + size;
   size += FACTOR;
 }
 
@@ -56,25 +57,51 @@ T ArrayStack<T>::top(){
   return *(sp - 1);
 }
 
-int main(){
-  ArrayStack<int> arr(8);
-  arr.push(1);
-  arr.push(2);
-  arr.push(3);
-  arr.push(4);
-  arr.push(5);
-  arr.push(6);
-  arr.push(7);
+//implementar precondiciones y postcondiciones
 
-  cout<<arr.top()<<endl;
-  arr.pop();
-  cout<<arr.top()<<endl;
-  arr.pop();
-  cout<<arr.top()<<endl;
-  arr.pop();
-  cout<<arr.top()<<endl;
-  arr.pop();
-  cout<<arr.top()<<endl;
+class arrayStackTest : public ::testing::Test {
+  protected:
+    void SetUp() override {
+      stack1->push(2);
+      stack2->push(5);
+      stack3->push(7);
+    }
+
+    void TearDown() override {
+      cout<<"ELIMINANDO PUNTEROS"<<endl;
+      delete stack1;
+      delete stack2;
+      delete stack3;
+      delete stack4;
+    }
+    ArrayStack<int> *stack1 = new ArrayStack<int> (4);
+    ArrayStack<int> *stack2 = new ArrayStack<int> (5);
+    ArrayStack<int> *stack3 = new ArrayStack<int> (7);
+    ArrayStack<int> *stack4 = new ArrayStack<int> (1);
+};
+
+TEST_F(arrayStackTest, IsEmptyInitially) {
+  ASSERT_EQ(stack1->empty(), true);
+  ASSERT_EQ(stack2->empty(), false);
 }
 
-//implementar precondiciones y postcondiciones
+TEST_F(arrayStackTest, IsEmptyFinal) {
+  EXPECT_EQ(stack1->empty(), false);
+  EXPECT_EQ(stack2->empty(), false);
+}
+
+TEST_F(arrayStackTest, staskPop) {
+  stack1->pop();
+  EXPECT_EQ(stack1->empty(), true);
+}
+
+TEST_F(arrayStackTest, stackTop) {
+  stack3->top();
+  EXPECT_EQ(stack3->top(), 7);
+}
+
+
+
+
+
+
