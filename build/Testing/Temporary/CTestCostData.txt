@@ -1,0 +1,6 @@
+arrayStackTest.IsEmptyInitially 2 0
+arrayStackTest.IsEmptyFinal 7 0.000405441
+arrayStackTest.staskPop 4 0.000954989
+arrayStackTest.stackTop 1 0.0046302
+---
+arrayStackTest.IsEmptyInitially

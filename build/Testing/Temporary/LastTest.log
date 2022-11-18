@@ -1,0 +1,124 @@
+Start testing: Nov 03 15:38 -05
+----------------------------------------------------------
+1/4 Testing: arrayStackTest.IsEmptyInitially
+1/4 Test: arrayStackTest.IsEmptyInitially
+Command: "/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/arrayStack" "--gtest_filter=arrayStackTest.IsEmptyInitially" "--gtest_also_run_disabled_tests"
+Directory: /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build
+"arrayStackTest.IsEmptyInitially" start time: Nov 03 15:38 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = arrayStackTest.IsEmptyInitially
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from arrayStackTest
+[ RUN      ] arrayStackTest.IsEmptyInitially
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/arrayStack.cc:84: Failure
+Expected equality of these values:
+  stack1->empty()
+    Which is: false
+  true
+ELIMINANDO PUNTEROS
+[  FAILED  ] arrayStackTest.IsEmptyInitially (0 ms)
+[----------] 1 test from arrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] arrayStackTest.IsEmptyInitially
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"arrayStackTest.IsEmptyInitially" end time: Nov 03 15:38 -05
+"arrayStackTest.IsEmptyInitially" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: arrayStackTest.IsEmptyFinal
+2/4 Test: arrayStackTest.IsEmptyFinal
+Command: "/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/arrayStack" "--gtest_filter=arrayStackTest.IsEmptyFinal" "--gtest_also_run_disabled_tests"
+Directory: /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build
+"arrayStackTest.IsEmptyFinal" start time: Nov 03 15:38 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = arrayStackTest.IsEmptyFinal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from arrayStackTest
+[ RUN      ] arrayStackTest.IsEmptyFinal
+ELIMINANDO PUNTEROS
+[       OK ] arrayStackTest.IsEmptyFinal (0 ms)
+[----------] 1 test from arrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"arrayStackTest.IsEmptyFinal" end time: Nov 03 15:38 -05
+"arrayStackTest.IsEmptyFinal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: arrayStackTest.staskPop
+3/4 Test: arrayStackTest.staskPop
+Command: "/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/arrayStack" "--gtest_filter=arrayStackTest.staskPop" "--gtest_also_run_disabled_tests"
+Directory: /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build
+"arrayStackTest.staskPop" start time: Nov 03 15:38 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = arrayStackTest.staskPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from arrayStackTest
+[ RUN      ] arrayStackTest.staskPop
+ELIMINANDO PUNTEROS
+[       OK ] arrayStackTest.staskPop (0 ms)
+[----------] 1 test from arrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"arrayStackTest.staskPop" end time: Nov 03 15:38 -05
+"arrayStackTest.staskPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: arrayStackTest.stackTop
+4/4 Test: arrayStackTest.stackTop
+Command: "/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/arrayStack" "--gtest_filter=arrayStackTest.stackTop" "--gtest_also_run_disabled_tests"
+Directory: /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build
+"arrayStackTest.stackTop" start time: Nov 03 15:38 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = arrayStackTest.stackTop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from arrayStackTest
+[ RUN      ] arrayStackTest.stackTop
+ELIMINANDO PUNTEROS
+[       OK ] arrayStackTest.stackTop (0 ms)
+[----------] 1 test from arrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"arrayStackTest.stackTop" end time: Nov 03 15:38 -05
+"arrayStackTest.stackTop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 15:38 -05

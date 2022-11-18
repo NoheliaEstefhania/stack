@@ -1,0 +1,5 @@
+if(EXISTS "/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/arrayStack[1]_tests.cmake")
+  include("/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/arrayStack[1]_tests.cmake")
+else()
+  add_test(arrayStack_NOT_BUILT arrayStack_NOT_BUILT)
+endif()

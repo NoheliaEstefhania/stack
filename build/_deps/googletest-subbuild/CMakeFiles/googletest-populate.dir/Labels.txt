@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/list_gtest/List.cc
+List.h
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/list_gtest/List.h
+iostream
+-
+assert.h
+-
+
+/home/nohelia/2022/s_vi/object_technology/labs/lab03/stack/list_gtest/List.h
+
